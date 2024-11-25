@@ -1,5 +1,5 @@
 // src/config/config.tsx
-export const API_URL = "http://localhost:8080";
+export const API_URL = "https://yoga-server-deploy.onrender.com";
 
 // https://yoga-server-deploy.onrender.com/
 
