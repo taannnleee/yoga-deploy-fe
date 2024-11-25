@@ -18,6 +18,13 @@ const nextConfig = {
         ],
         dangerouslyAllowSVG: true,
     },
+
+    output: 'export', // Chuyển sang static export
+    assetPrefix: './', // Sử dụng đường dẫn tương đối
+
+    trailingSlash: true, // Thêm dấu "/" vào cuối các URL
+
 };
 
 export default withNextVideo(nextConfig);
+

@@ -1,14 +1,14 @@
 {
   "homepage": "https://taannnleee.github.io/yoga-deploy-fe",
-  "name": "market-floor-user",
+  "name": "yoga-deploy-fe",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev & npx next-video sync -w",
-    "build": "next build",
     "start": "next dev & npx next-video sync -w",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "build": "next build && next export",
+    "deploy": "npm run build && gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
