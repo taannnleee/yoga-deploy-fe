@@ -17,7 +17,7 @@ export default function Home() {
 
         if (accessToken) {
             // Nếu tồn tại, redirect đến "/home"
-            router.push("/home");
+            router.push("/yoga-deploy-fe/home");
         } else {
             // Nếu không, redirect đến "/login"
             router.push("/login");
